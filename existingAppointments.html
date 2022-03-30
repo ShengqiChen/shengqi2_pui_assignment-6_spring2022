@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tartan Testing and Vaccination</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script src="index.js">
+</script>
+<body>
+  <nav>
+
+    <ul>
+            <!-- back to homepage -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Existing Appointments</a></li>
+            <li><a href="#">Past Results</a></li>
+    </ul>
+
+    <h1 class="left-notice">Welcome, Nick</h1>
+    <div class="progress">
+            <span class="dot-black"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+    </div>
+    </nav>
+
+    <div class="content">
+    <h2>Available Testing Sites</h2>
+    <div id="cart-container">
+            <h2 class="cart-table">
+                <p>Location: 
+                    <select name="location" id="location">
+                    <option value="East Garage">East Garage</option>
+                    <option value="TCS Hall">TCS Hall</option>
+                    </select> 
+                </p>
+                <p>Time: 02/21/2022 9:30am</p>
+            </h2>
+            <div>
+                <div class="cart-btn" onclick="add_Event()">Create New Event</div>
+                <div class="cart-btn">View Past Results</div>
+            </div>   
+
+    </div>
+    <div id="next" onclick="change()"><a class="button">Next <span>&#8594;</span></a></div>
+    </div>
+   
+</body>
+</html>
