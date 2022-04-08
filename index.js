@@ -20,13 +20,7 @@ function setColorDates(id){
     property.style.color = "#000"
 }
 
-function change(){
-  $(".chosen_action").innerHTML = `
-    <option>You turn away from the castle</option>
-    <option>You take a closer look at the old drawbridge</option>
-    <option>You decide to consult your map</option>
-`;
-}
+
 
 // var d = document.getElementById("cart-container")
 // var new_event = document.createElement( 'div' );
